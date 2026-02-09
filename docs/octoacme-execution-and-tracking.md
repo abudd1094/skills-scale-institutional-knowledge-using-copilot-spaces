@@ -6,7 +6,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 ## Team Rhythm
 - Daily standups (15 min) — focus on progress, blockers, dependencies
 - Weekly delivery sync — show progress, updates, and flagged risks
-- Demo/Review at the end of each sprint or milestone
+- Demo/Review at the end of each sprint or milestone (include Stakeholder Representatives for feedback)
+- Design reviews as needed (UX Designer participation)
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
@@ -20,8 +21,9 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
-- Security scanning in CI
+- Security scanning in CI (DevOps Engineer oversight)
 - Manual QA for feature acceptance when needed
+- Usability testing for user-facing features (UX Designer coordination)
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -35,6 +37,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
-- [ ] Regular demos scheduled
+- [ ] CI configured for tests and lint (DevOps Engineer)
+- [ ] Regular demos scheduled (include Stakeholder Representatives)
 - [ ] Risk register updated weekly
+- [ ] Business requirements clarified and documented (Business Analyst)
+- [ ] Design feedback incorporated (UX Designer)
